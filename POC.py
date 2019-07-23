@@ -13,4 +13,4 @@ for wordTag in sentence:
 chunkedSentence = ne_chunk(sentence)
 print()
 print(chunkedSentence)
-#chunkedSentence.draw() # Shows tree structure
+chunkedSentence.draw() # Shows tree structure
