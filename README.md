@@ -1,8 +1,14 @@
-# Running the program
+# Initial setup
 ```bash
 git clone https://github.com/Anudeep07/NLP-PoC.git
 pip3 install nltk
-cd NLP-PoC/ && python3 POC.py
+cd NLP-PoC/ && python3 requirements.py
+```
+
+# Running the programs
+```bash
+python3 NamedEntityRecog.py         # Performing Named Entity Recognition
+python3 ExtractRelations.py         # Extracting relation information
 ```
 
 # Program Information
